@@ -1,0 +1,205 @@
+.work {
+  background-color: #84a558;
+  background-image: url(../../images/work_background@1X.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.work_headline {
+  text-align: center;
+  font-size: 60px;
+  font-family: LatoL;
+  font-weight: 300;
+  color: $main-text-color;
+  margin-bottom: 46px;
+  text-transform: uppercase;
+}
+
+.work_text {
+  font-size: 14.5px;
+  font-family: LatoR;
+  font-weight: 400;
+  color: $main-text-color;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.work_portfolio {
+  display: flex;
+  justify-content: space-between;
+  color: $main-text-color;
+  font-size: 20px;
+  font-family: latoR;
+  font-weight: 500;
+  border-top: 1px solid rgba(234, 238, 230, 0.3);
+  border-bottom: 1px solid rgba(234, 238, 230, 0.3);
+  padding-bottom: 42px;
+  padding-top: 42px;
+  margin-bottom: 47px;
+}
+
+.work_portfolio_Ulist {
+  display: flex;
+  justify-content: space-evenly;
+  width: 443px;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: latoR;
+  font-weight: 500;
+
+  & a {
+    width: 100%;
+    padding: 7px;
+
+    &:hover {
+      background-color: #f5c149;
+      width: 100%;
+      padding: 7px;
+      transition: all .3s linear;
+      border-radius: 5px;
+    }
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: $main-text-color;
+}
+
+.work_portfolio-img {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.work_portfolio-img_item {
+  width: 260px;
+  height: 250px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.work_portfolio-img_img {
+  display: block;
+  border-radius: 5px 5px 0 0;
+}
+
+.work_portfolio-img_item::before {
+  content: '';
+  background-image: url(../images/plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+  width: 260px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  border-radius: 5px 5px 0 0;
+  opacity: 0;
+}
+
+.work_portfolio-img_item:hover::before {
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all .3s linear;
+  opacity: 1;
+}
+
+.work_portfolio-img_text:hover {
+  cursor: pointer;
+}
+
+.work_portfolio-img_text::after {
+  content: '';
+  width: 35px;
+  height: 18px;
+  display: block;
+  background-image: url(../images/work_Rectangle.svg);
+  position: absolute;
+  top: 73%;
+  left: 43%;
+}
+
+.work_portfolio-img_text {
+  width: 260px;
+  height: 50px;
+  background-color: #eeeeee;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (max-width: 1120px) {
+  .container {
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  .work_portfolio-img {
+    justify-content: space-evenly;
+  }
+
+  .work_portfolio-img_item:nth-child(7) {
+    margin-left: 145px;
+  }
+
+  .work_portfolio-img_item:nth-child(8) {
+    margin-right: 145px;
+  }
+}
+
+@media (max-width: 920px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .work_portfolio-img_item:nth-child(7) {
+    margin-left: 0px;
+  }
+
+  .work_portfolio-img_item:nth-child(8) {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  
+
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .work_portfolio_Ulist {
+    flex-wrap: wrap;
+    width: 300px;
+  }
+   
+  .work_portfolio {
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 50px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 200px;
+    margin: 0 auto;
+  }
+}

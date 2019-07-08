@@ -8,6 +8,7 @@
   max-width: 1100px ;
   height: auto;
   margin: 0 auto;
+  padding-top: 40px;
 }
 
 .service {
@@ -22,12 +23,14 @@
 
 .service_content {
   margin-bottom: 124px;
+  
 }
 
 .service_headline {
   text-align: center;
   font-size: 60px;
   font-family: LatoL;
+  font-weight: 300;
   color: $main-text-color;
   margin-bottom: 46px;
 }
@@ -36,6 +39,7 @@
   text-align: center;
   font-size: 20px;
   font-family: LatoR;
+  font-weight: 400;
   color: $main-text-color;
   text-transform: uppercase;
   margin-bottom: 22px;
@@ -48,6 +52,7 @@
 .service_text_2 {
   font-size: 14px;
   font-family: LatoR;
+  font-weight: 400;
   color: $main-text-color;
   margin-bottom: 120px;
   text-align: center;
@@ -90,6 +95,7 @@
   text-align: center;
   color: $main-text-color;
   font-family: LatoL;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
@@ -97,5 +103,6 @@
   text-align: center;
   color: $main-text-color;
   font-family: LatoR;
+  font-weight: 400;
   width: 209px;
 }
