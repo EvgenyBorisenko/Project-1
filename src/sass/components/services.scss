@@ -1,24 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  max-width: 1100px ;
-  height: auto;
-  margin: 0 auto;
-}
 
 .service {
-  background-color: #b24a50;
-  background-image: url(../../images/Layer@1X.png);
+  background-image: url(../../images/bg-services.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position-y: -40%;
+  background-size: cover;
+  padding-top:41px ;
   padding-bottom: 124px;
-}
 
+}
 
 .service_content {
   margin-bottom: 124px;
@@ -68,7 +56,7 @@
   width: 260px;
   height: 400px;
   margin-right: 20px;
-  background-color: rgba(196,81,88,.8);
+  background-color:rgba(196, 81, 88, .7); 
 }
 
 .service_item:last-child {

@@ -1,0 +1,191 @@
+
+.about {
+ 
+  background-image: url(../../images/about_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:41px ;
+  padding-bottom: 124px;
+  
+
+}
+
+
+.about_content {
+  margin-bottom: 124px;
+}
+
+.about_headline {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'LatoL';
+  font-weight: 300;
+  color: $main-text-color;
+  margin-bottom: 40px;
+}
+
+.my_team_text {
+  font-size: 20px;
+  font-family:$meet-the-team;
+  color: $main-text-color;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 22px;
+  width: 278px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a1ca6c;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 70px;
+  &::after{
+    display: block;
+    content: '';
+    width: 30px;
+    height: 30px;
+    z-index: -1;
+    background-color: #a1ca6c;
+    position: absolute;
+    left: 50%;
+    bottom: -17px;
+    transform: rotate(45deg) translateX(-50%);
+  }
+}
+
+.word {
+  color: #ec9da2;
+}
+
+.about_text {
+  font-size: 14px;
+  font-family: LatoR;
+  line-height: 30px;
+  color: $team-names;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.about_items {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about_item {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+  width: 260px;
+  height: 400px;
+  margin-right: 20px;
+  background-color: rgba(83,68,81,.8);
+  &:hover {
+    & .about_item_headline {
+      transition: all .5s linear;
+      color:$main-text-color;
+    }
+
+    & .about_item_text {
+      transition: all .5s linear;
+      color: $status-team;
+    }
+
+    & .about-socials-round:nth-of-type(1) {
+      transition: all .5s linear;
+      background-color: $facebook-team;
+    }
+
+    & .about-socials-round:nth-of-type(2) {
+      transition: all .5s linear;
+      background-color:$Twitter-team;
+    }
+
+    & .about-socials-round:nth-of-type(3) {
+      transition: all .5s linear;
+      background-color: $Google-team;
+    }
+
+    & .about-socials-round:nth-of-type(4) {
+      transition: all .5s linear;
+      background-color: $Linkedid-team;
+    }
+  }
+}
+.about_item_headline{
+  font-size: 25px;
+  font-family: 'LatoEB';
+  font-weight: 900;
+  color: $team-names;
+  margin-bottom: 15px;
+  
+}
+
+.about_item:last-child {
+  margin-right: 0px;
+}
+
+@media (max-width: 1099px) {
+  .service_item:last-child {
+    margin-right: 20px;
+  }
+}
+
+.about_item_icon {
+  width: 167px;
+  height: 167px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-family: 'LatoEB';
+  color: $team-names;
+
+}
+.about_item:hover {
+  color: #ec9da2;
+
+}
+
+
+.about_item_text {
+  text-align: center;
+  color: $main-text-color;
+  font-family: LatoR;
+  width: 209px;
+  margin-bottom: 35px;
+  font-family: 'LatoL';
+  font-size: 14px;
+  color: #a1ca6c;
+}
+
+.about-socials{
+  display: flex;
+  justify-content: space-between;
+  width: 194px;
+  height: 40px;
+}
+
+.about-socials-round {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: rgba(161,133,158,.9);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.socials_item_icon {
+  display: block;
+  margin: auto;
+  width: 15px;
+  height: 15px;
+ fill: #fff;
+}
+.facebook{
+  width: 10px;
+}
+

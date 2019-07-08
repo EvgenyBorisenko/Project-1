@@ -2,8 +2,10 @@
    Import partials below
 */
 @import 'normalize';
-@import 'helpers/typografic.scss';
-@import 'components/base.scss';
-@import 'helpers/constans.scss';
-@import 'components/header.scss';
+@import 'helpers/typografic';
+@import 'components/base';
+@import 'helpers/constans';
+@import 'components/header';
 @import 'components/services';
+@import 'components/about';
+@import 'components/contacts';
