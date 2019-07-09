@@ -154,8 +154,6 @@
   }
 
   .nav-item {
-    margin-right: 10%;
-
     &::before {
       width: 130%;
       height: 90%;
@@ -177,23 +175,8 @@
     padding-bottom: 20px;
   }
 
-  .nav-item:last-child {
-    margin-right: 140px;
-  }
-
-
-}
-
-@media (max-width: 320px) {
-  a {
-    padding-bottom: 10px;
-  }
-
   .nav-item {
-    width: 110%;
-  }
-
-  .nav-item {
+    width: 100%;
     margin-right: 0px;
   }
 
@@ -241,7 +224,9 @@
     font-size: 100px;
     line-height: 173%;
   }
-
+.nav-box{
+  margin-bottom: 360px;
+}
   .comes {
     font-size: 40px;
   }
@@ -294,7 +279,9 @@
     text-align: center;
     width: 100%;
   }
-
+  .nav-box{
+    margin-bottom: 160px;
+  }
   .button-left {
     left: -60px;
     top: 32%;

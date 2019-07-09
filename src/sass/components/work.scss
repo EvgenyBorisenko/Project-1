@@ -135,10 +135,6 @@
 }
 
 @media (max-width: 1120px) {
-  .container {
-    width: 900px;
-    margin: 0 auto;
-  }
 
   .work_portfolio-img {
     justify-content: space-evenly;
@@ -154,11 +150,6 @@
 }
 
 @media (max-width: 920px) {
-  .container {
-    width: 700px;
-    margin: 0 auto;
-  }
-
   .work_portfolio-img_item:nth-child(7) {
     margin-left: 0px;
   }
@@ -168,21 +159,7 @@
   }
 }
 
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-    margin: 0 auto;
-  }
-
-  
-
-}
-
 @media (max-width: 520px) {
-  .container {
-    width: 320px;
-    margin: 0 auto;
-  }
 
   .work_portfolio_Ulist {
     flex-wrap: wrap;

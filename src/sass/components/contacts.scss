@@ -216,7 +216,7 @@ color: $text-ask;
 :-moz-placeholder           {color:$text-ask;}
 :-ms-input-placeholder      {color:$text-ask;}
 
-@media (max-width:1130px){
+@media (max-width: 1130px){
   .contacts{
     padding-bottom: 170px;
   }
@@ -259,6 +259,34 @@ color: $text-ask;
   }
 
 }
-@media (max-width:1130px){
+@media (max-width:767px){
+  .nav-box{
+    display: flex;
+    flex-direction: column;
+  }
 
+  .contacts_content{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+.contacts_headline{
+  font-size: 42px;
+}
+.address{
+  display: flex;
+  flex-direction: column;
+}
+.header-nav{
+  display: flex;
+  flex-direction: column;
+  &:last-child{margin-right: 0;}
+
+}
+.contacts_item{
+  margin: 0;
+}
+.nav-item:last-child{
+  margin-right: 0;
+}
 }
