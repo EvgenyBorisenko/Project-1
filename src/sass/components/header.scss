@@ -121,14 +121,12 @@
   width: 435px;
   font-size: 138px;
   color: $headline-color-first;
-
 }
 
 .rounds-items {
   display: flex;
   width: 141px;
   margin: 0 auto;
-
 }
 
 .rounds {
@@ -145,6 +143,62 @@
   }
 }
 
+/* header*/
+
+@media (max-width: 1130px) {
+  .header-nav {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+
+  .nav-item {
+    margin-right: 10%;
+
+    &::before {
+      width: 130%;
+      height: 90%;
+      top: -20%;
+      border-radius: 7px;
+    }
+  }
+
+  .nav-box {
+    flex-wrap: wrap;
+  }
+
+  a {
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  a img {
+    padding-bottom: 20px;
+  }
+
+  .nav-item:last-child {
+    margin-right: 140px;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+  a {
+    padding-bottom: 10px;
+  }
+
+  .nav-item {
+    width: 110%;
+  }
+
+  .nav-item {
+    margin-right: 0px;
+  }
+
+  .nav-item:last-child {
+    margin-right: 0px;
+  }
+}
 
 /* section 1*/
 
