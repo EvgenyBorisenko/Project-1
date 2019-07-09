@@ -1,12 +1,8 @@
-
 .about {
- 
   background-image: url(../../images/about_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 124px;
-  
-
 }
 
 
@@ -25,7 +21,7 @@
 
 .my_team_text {
   font-size: 20px;
-  font-family:$meet-the-team;
+  font-family: $meet-the-team;
   color: $main-text-color;
   text-transform: uppercase;
   margin: 0 auto;
@@ -40,7 +36,8 @@
   position: relative;
   z-index: 0;
   margin-bottom: 70px;
-  &::after{
+
+  &::after {
     display: block;
     content: '';
     width: 30px;
@@ -82,11 +79,12 @@
   width: 260px;
   height: 400px;
   margin-right: 20px;
-  background-color: rgba(83,68,81,.8);
+  background-color: rgba(83, 68, 81, .8);
+
   &:hover {
     & .about_item_headline {
       transition: all .5s linear;
-      color:$main-text-color;
+      color: $main-text-color;
     }
 
     & .about_item_text {
@@ -101,7 +99,7 @@
 
     & .about-socials-round:nth-of-type(2) {
       transition: all .5s linear;
-      background-color:$Twitter-team;
+      background-color: $Twitter-team;
     }
 
     & .about-socials-round:nth-of-type(3) {
@@ -115,13 +113,14 @@
     }
   }
 }
-.about_item_headline{
+
+.about_item_headline {
   font-size: 25px;
   font-family: 'LatoEB';
   font-weight: 900;
   color: $team-names;
   margin-bottom: 15px;
-  
+
 }
 
 .about_item:last-child {
@@ -143,6 +142,7 @@
   color: $team-names;
 
 }
+
 .about_item:hover {
   color: #ec9da2;
 
@@ -160,7 +160,7 @@
   color: #a1ca6c;
 }
 
-.about-socials{
+.about-socials {
   display: flex;
   justify-content: space-between;
   width: 194px;
@@ -171,9 +171,9 @@
   width: 33px;
   height: 33px;
   border-radius: 50%;
-  background-color: rgba(161,133,158,.9);
+  background-color: rgba(161, 133, 158, .9);
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -182,9 +182,9 @@
   margin: auto;
   width: 14px;
   height: 16px;
- fill: #fff;
-}
-.facebook{
-  width: 10px;
+  fill: #fff;
 }
 
+.facebook {
+  width: 10px;
+}
