@@ -76,7 +76,7 @@
   flex-direction: column;
   padding-top: 40px;
   align-items: center;
-  width: 260px;
+  width: 250px;
   height: 400px;
   margin-right: 20px;
   background-color: rgba(83, 68, 81, .8);
@@ -125,12 +125,6 @@
 
 .about_item:last-child {
   margin-right: 0px;
-}
-
-@media (max-width: 1099px) {
-  .service_item:last-child {
-    margin-right: 20px;
-  }
 }
 
 .about_item_icon {
