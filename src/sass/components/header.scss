@@ -121,14 +121,12 @@
   width: 435px;
   font-size: 138px;
   color: $headline-color-first;
-
 }
 
 .rounds-items {
   display: flex;
   width: 141px;
   margin: 0 auto;
-
 }
 
 .rounds {
@@ -147,7 +145,7 @@
 
 /* header*/
 
-@media (max-width: 600px) {
+@media (max-width: 1130px) {
   .header-nav {
     flex-basis: 100%;
     flex-wrap: wrap;
@@ -184,7 +182,7 @@
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   a {
     padding-bottom: 10px;
   }
