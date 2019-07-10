@@ -131,7 +131,7 @@
   font-size: 25px;
   font-family: 'LatoEB';
   color: $team-names;
-  
+  position: relative;
 }
 
 .about_item::after {
@@ -199,6 +199,10 @@
     margin: 0;
     justify-content: space-around;
     margin: 10px;
+  }
+
+  .about_item::after {
+    top: 44px;
   }
 
   .about_item {

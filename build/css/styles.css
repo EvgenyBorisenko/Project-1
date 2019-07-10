@@ -616,6 +616,10 @@ template {
   background-color: rgba(176, 41, 49, 0.4);
 }
 
+.service_item:last-of-type {
+  margin-right: 0;
+}
+
 .service_item_icon {
   width: 130px;
   height: 130px;
@@ -715,6 +719,7 @@ template {
   height: 400px;
   margin-right: 20px;
   background-color: rgba(83, 68, 81, 0.8);
+  position: relative;
 }
 
 .about_item:hover .about_item_headline {
@@ -766,10 +771,27 @@ template {
   font-size: 25px;
   font-family: 'LatoEB';
   color: #c7b6c5;
+  position: relative;
+}
+
+.about_item::after {
+  content: '';
+  background-image: url(../../images/hover-human.png);
+  position: absolute;
+  width: 164px;
+  height: 164px;
+  background-repeat: no-repeat;
+  opacity: 0;
+}
+
+.about_item:hover::after {
+  opacity: 1;
+  transition: all .5s linear;
 }
 
 .about_item:hover {
   color: #ec9da2;
+  cursor: pointer;
 }
 
 .about_item_text {
@@ -951,7 +973,7 @@ template {
   line-height: 21px;
   padding-left: 20px;
   margin-bottom: 20px;
-  color: #82c8bd;
+  color: #ccc;
 }
 
 .inputs_area:nth-of-type(1) {
@@ -960,7 +982,18 @@ template {
 
 .first_input {
   background-color: #68aaa1;
-  color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.first_input:focus {
+  background-color: #fff;
+  cursor: text;
+}
+
+.text_area:focus {
+  background-color: #fff;
+  cursor: text;
 }
 
 .second_input {
@@ -975,12 +1008,13 @@ template {
   resize: both;
   font-size: 16px;
   font-family: "LatoR";
-  color: #fff;
+  color: #000;
   line-height: 21px;
   padding-top: 15px;
   padding-left: 20px;
   background-color: #68aaa1;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .send_button {
@@ -1017,10 +1051,16 @@ template {
 
 .footer-socials-round {
   display: flex;
+  justify-content: center;
   width: 63px;
   height: 60px;
   border-radius: 50%;
   background-color: #82c8bd;
+}
+
+.contacts_footer-icon {
+  display: flex;
+  justify-content: center;
 }
 
 .footer_item_icon {
@@ -1028,6 +1068,7 @@ template {
   width: 30px;
   height: 30px;
   margin: auto;
+  cursor: pointer;
 }
 
 .footer_item_icon.facebook {
@@ -1035,19 +1076,19 @@ template {
 }
 
 ::-webkit-input-placeholder {
-  color: #82c8bd;
+  color: #ccc;
 }
 
 ::-moz-placeholder {
-  color: #82c8bd;
+  color: #ccc;
 }
 
 :-moz-placeholder {
-  color: #82c8bd;
+  color: #ccc;
 }
 
 :-ms-input-placeholder {
-  color: #82c8bd;
+  color: #ccc;
 }
 
 .work {
@@ -1231,6 +1272,10 @@ template {
     margin: 10px;
   }
 
+  .about_item::after {
+    top: 44px;
+  }
+
   .about_item:nth-last-child(-n+2) {
     margin-bottom: 0;
   }
@@ -1281,6 +1326,7 @@ template {
   .text_area {
     width: 100%;
     margin-bottom: 50px;
+    resize: none;
   }
 
   .send_button {
@@ -1289,14 +1335,6 @@ template {
 
   .work_portfolio-img {
     justify-content: space-evenly;
-  }
-
-  .work_portfolio-img_item:nth-child(7) {
-    margin-left: 145px;
-  }
-
-  .work_portfolio-img_item:nth-child(8) {
-    margin-right: 145px;
   }
 }
 

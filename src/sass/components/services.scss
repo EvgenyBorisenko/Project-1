@@ -55,6 +55,9 @@
   height: 400px;
   margin-right: 20px;
   background-color:$services-bg-item;
+  &:last-of-type {
+    margin-right: 0;
+  }
 }
 
 .service_item_icon {
