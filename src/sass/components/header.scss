@@ -1,5 +1,5 @@
 .top-section {
-  background-image: url(../images/bg-home.png);
+  background-image: url(../../images/bg-home.png);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -250,22 +250,17 @@
     }
   }
 
-  .nav-box {
+  .nav-box a{
     flex-wrap: wrap;
-  }
-
-  a {
-    margin: auto;
     padding-bottom: 20px;
   }
-
-  a img {
-    padding-bottom: 20px;
-  }
-
+ .site-logo{
+   margin-bottom: 70px;
+ }
   .nav-item {
     width: 100%;
     margin-right: 0px;
+    font-size: 25px;
   }
 
   .nav-item:last-child {
