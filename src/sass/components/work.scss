@@ -135,22 +135,14 @@
 }
 
 @media (max-width: 1130px) {
-
   .work_portfolio-img {
     justify-content: space-evenly;
   }
 
-  .work_portfolio-img_item:nth-child(7) {
-    margin-left: 145px;
-  }
-
-  .work_portfolio-img_item:nth-child(8) {
-    margin-right: 145px;
-  }
+ 
 }
 
 @media (max-width: 767px) {
-
   .work_portfolio_Ulist {
     flex-wrap: wrap;
     width: 300px;

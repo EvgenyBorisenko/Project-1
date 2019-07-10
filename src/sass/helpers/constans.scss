@@ -6,10 +6,12 @@ $headline-color-first:#74c7d5;
 $team-names:#c7b6c5;
 
 
-
-
 $headline-font:'LatoL';
 $first:'LatoEB';
+
+//Service item background
+$service-item-color:rgba(176, 41, 49, .4);
+
 
 // team-section-fonts
 $meet-the-team:'LatoEB';
@@ -24,14 +26,13 @@ $Google-team:#df5c64;
 $Linkedid-team:#3e61af;
 
 
-
-
 // footer-colors
 $footer:#68a097;
 $socials:#82c8bd;
 $bg-ask:#68aaa1;
-$text-ask:#82c8bd;
+$text-ask:#ccc;
 $button:#df5c64;
+$input-text:#000;
 
 //footer-fonts
 $button-text-color:'LatoEB';
