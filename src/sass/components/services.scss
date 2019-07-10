@@ -2,12 +2,7 @@
   background-image: url(../../images/bg-services.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 124px;
-
-}
-
-.service_content {
-  margin-bottom: 124px;
+  padding-bottom: 115px;
 
 }
 
@@ -93,11 +88,18 @@
     justify-content: center;
   }
   .service_item {
-    margin: 20px;
+    margin: 10px;
+    // margin-bottom: 0;
+    // margin-right: 0;
+  }
+  .service_items:last-child(-n+2){
     margin-bottom: 0;
-    margin-right: 0;
+  }
+  .service_items:last-child li{
+    margin-right: 10px;
   }
   
+
 }
 
 @media (max-width: 767px) {
