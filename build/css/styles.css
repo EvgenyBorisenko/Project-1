@@ -409,7 +409,7 @@ template {
 }
 
 .top-section {
-  background-image: url(../../images/bg-home.png);
+  background-image: url(../images/bg-home.png);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
