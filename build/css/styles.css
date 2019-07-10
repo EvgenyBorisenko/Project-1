@@ -379,21 +379,21 @@ template {
   font-family: 'LatoL';
   font-style: normal;
   font-weight: 300;
-  src: url("../../fonts/lato-v15-latin-300.woff2") format("woff2"), url("../../fonts/lato-v15-latin-300.woff") format("woff");
+  src: url("../fonts/lato-v15-latin-300.woff2") format("woff2"), url("../fonts/lato-v15-latin-300.woff") format("woff");
 }
 
 @font-face {
   font-family: 'LatoR';
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/lato-v15-latin-regular.woff2") format("woff2"), url("../../fonts/lato-v15-latin-regular.woff") format("woff");
+  src: url("../fonts/lato-v15-latin-regular.woff2") format("woff2"), url("../fonts/lato-v15-latin-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'LatoEB';
   font-style: normal;
   font-weight: 900;
-  src: url("../../fonts/lato-v15-latin-900.woff2") format("woff2"), url("../../fonts/lato-v15-latin-900.woff") format("woff");
+  src: url("../fonts/lato-v15-latin-900.woff2") format("woff2"), url("../fonts/lato-v15-latin-900.woff") format("woff");
 }
 
 * {
@@ -409,7 +409,7 @@ template {
 }
 
 .top-section {
-  background-image: url(../../images/bg-home.png);
+  background-image: url(../images/bg-home.png);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -559,7 +559,7 @@ template {
 /* header*/
 
 .service {
-  background-image: url(../../images/bg-services.png);
+  background-image: url(../images/bg-services.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 115px;
@@ -642,7 +642,7 @@ template {
 }
 
 .about {
-  background-image: url(../../images/about_bg.png);
+  background-image: url(../images/about_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 124px;
@@ -776,7 +776,7 @@ template {
 
 .about_item::after {
   content: '';
-  background-image: url(../../images/hover-human.png);
+  background-image: url(../images/hover-human.png);
   position: absolute;
   width: 164px;
   height: 164px;
@@ -1093,7 +1093,7 @@ template {
 
 .work {
   background-color: #84a558;
-  background-image: url(../../images/work_background@1X.png);
+  background-image: url(../images/work_background@1X.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

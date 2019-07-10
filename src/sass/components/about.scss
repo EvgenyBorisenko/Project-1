@@ -1,5 +1,5 @@
 .about {
-  background-image: url(../../images/about_bg.png);
+  background-image: url(../images/about_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 124px;
@@ -136,7 +136,7 @@
 
 .about_item::after {
   content: '';
-  background-image: url(../../images/hover-human.png);
+  background-image: url(../images/hover-human.png);
   position: absolute;
   width: 164px;
   height: 164px;
