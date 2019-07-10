@@ -5,11 +5,6 @@
   padding-bottom: 124px;
 }
 
-
-.about_content {
-  margin-bottom: 124px;
-}
-
 .about_headline {
   text-align: center;
   font-size: 60px;
@@ -187,7 +182,7 @@
   .about_item {
     margin: 0;
     justify-content: space-around;
-    margin: 20px;
+    margin: 10px;
   }
 
   .about_item {
@@ -196,15 +191,19 @@
     }
 
     &:last-of-type {
-      margin-right: 20px;
+      margin-right: 10px;
     }
 
   }
 }
 
   @media (max-width: 767px) {
-    .about_item:last-child {
-      margin-bottom: 0;
-    }
+  .about_item:nth-last-child(-n+2) {
+    margin-bottom: 10px;
   }
+
+  .about_item:last-child {
+    margin-bottom: 0;
+  }
+}
 
