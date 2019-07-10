@@ -80,6 +80,8 @@
   height: 400px;
   margin-right: 20px;
   background-color: rgba(83, 68, 81, .8);
+  position: relative;
+  
 
   &:hover {
     & .about_item_headline {
@@ -134,14 +136,28 @@
   font-size: 25px;
   font-family: 'LatoEB';
   color: $team-names;
+  
+}
 
+.about_item::after {
+  content: '';
+  background-image: url(../../images/hover-human.png);
+  position: absolute;
+  width: 164px;
+  height: 164px;
+  background-repeat: no-repeat;
+  opacity: 0;
+}
+
+.about_item:hover::after {
+  opacity: 1;
+  transition: all .5s linear;
 }
 
 .about_item:hover {
-  color: #ec9da2;
-
+  color: #ec9da2; 
+  cursor: pointer;
 }
-
 
 .about_item_text {
   text-align: center;

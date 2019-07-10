@@ -152,7 +152,18 @@
 .first_input {
   background-color: $bg-ask;
   color: $main-text-color;
+  cursor: pointer;
+}
 
+.first_input:focus  {
+  background-color: $main-text-color;
+  cursor: text;
+}
+
+.text_area:focus {
+  background-color: $main-text-color;
+  cursor: text;
+  
 }
 
 .second_input {
@@ -173,6 +184,7 @@
   padding-left: 20px;
   background-color: $bg-ask;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .send_button {
@@ -221,6 +233,7 @@
   width: 30px;
   height: 30px;
   margin: auto;
+  cursor: pointer;
 
   &.facebook {
     width: 16px;
@@ -323,9 +336,9 @@
     margin-right: 0;
   }
 
-   .address_headline {
+  .address_headline {
     text-align: center;
-   }
+  }
 
   .header-nav {
     display: flex;
