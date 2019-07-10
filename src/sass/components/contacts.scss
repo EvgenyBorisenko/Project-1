@@ -222,10 +222,16 @@
 
 .footer-socials-round {
   display: flex;
+  justify-content: center;
   width: 63px;
   height: 60px;
   border-radius: 50%;
   background-color: $socials;
+}
+
+.contacts_footer-icon {
+  display: flex;
+  justify-content: center; 
 }
 
 .footer_item_icon {
@@ -299,6 +305,7 @@
   .text_area {
     width: 100%;
     margin-bottom: 50px;
+    resize: none;
   }
 
   .send_button {
