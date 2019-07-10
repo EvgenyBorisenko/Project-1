@@ -182,3 +182,29 @@
 .facebook {
   width: 10px;
 }
+
+@media (max-width: 1130px) {
+  .about_item {
+    margin: 0;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  .about_item {
+    &:nth-last-child(-n+2) {
+      margin-bottom: 0;
+    }
+
+    &:last-of-type {
+      margin-right: 20px;
+    }
+
+  }
+}
+
+  @media (max-width: 767px) {
+    .about_item:last-child {
+      margin-bottom: 0;
+    }
+  }
+
